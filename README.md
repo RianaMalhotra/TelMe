@@ -71,10 +71,10 @@ Make sure you have the following installed:
 5. Access the App: Open your browser and visit http://127.0.0.1:5000.
 
 
-Usage
-Open the Web Interface: Enter your city, days since joining, total plan changes, and current plan selections.
-Submit the Form: The app assigns you to a cluster and recommends the ideal plan based on your input.
-View Recommendation: See the recommended plan displayed in the web interface.
+## Usage
+- Open the Web Interface: Enter your city, days since joining, total plan changes, and current plan selections.
+- Submit the Form: The app assigns you to a cluster and recommends the ideal plan based on your input.
+- View Recommendation: See the recommended plan displayed in the web interface.
 
 ```perl
 plan-recommendation-system/
