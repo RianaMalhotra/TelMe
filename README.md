@@ -1,6 +1,6 @@
 # Telme
 
-Welcome to **Telme**, a smart solution that uses **machine learning models (K-means and Logistic Regression)** to assign users to clusters and recommend the best plan based on their input. This project demonstrates a seamless **telecommunication plan recommendation engine** built with **Python, Flask, and Scikit-learn**.
+Welcome to **Telme**, a smart solution that uses **machine learning models (K-means and Logistic Regression)** to assign users to clusters and recommend the best plan based on their input. This project demonstrates a seamless **telecommunication plan recommendation engine** built with **Python and Scikit-learn**.
 
 ---
 
@@ -22,7 +22,7 @@ Welcome to **Telme**, a smart solution that uses **machine learning models (K-me
 ---
 
 ## Tech Stack
-- **Backend**: Python, Flask, Scikit-learn
+- **Backend**: Python, Scikit-learn
 - **Machine Learning Models**: K-means, Logistic Regression
 - **Data Handling**: Pandas, Numpy
 - **Deployment**: Local development with Flask
@@ -34,7 +34,7 @@ Welcome to **Telme**, a smart solution that uses **machine learning models (K-me
 
 
 ## Usage
-- Open the Web Interface: Enter your city, days since joining, total plan changes, and current plan selections.
+- Open the Web Interface: Enter your city, days since joining, and total plan changes.
 - Submit the Form: The app assigns you to a cluster and recommends the ideal plan based on your input.
 - View Recommendation: See the recommended plan displayed in the web interface.
 
