@@ -25,7 +25,6 @@ Welcome to **Telme**, a smart solution that uses **machine learning models (K-me
 
 ## Tech Stack
 - **Backend**: Python, Flask, Scikit-learn
-- **Frontend**: HTML, CSS (Bootstrap), JavaScript
 - **Machine Learning Models**: K-means, Logistic Regression
 - **Data Handling**: Pandas, Numpy
 - **Deployment**: Local development with Flask
