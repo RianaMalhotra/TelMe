@@ -1,6 +1,6 @@
-# Plan Recommendation System
+# Telme
 
-Welcome to the **Plan Recommendation System**, a smart solution that uses **machine learning models (K-means and Logistic Regression)** to assign users to clusters and recommend the best plan based on their input. This project demonstrates a seamless **telecommunication plan recommendation engine** built with **Python, Flask, and Scikit-learn**.
+Welcome to **Telme**, a smart solution that uses **machine learning models (K-means and Logistic Regression)** to assign users to clusters and recommend the best plan based on their input. This project demonstrates a seamless **telecommunication plan recommendation engine** built with **Python, Flask, and Scikit-learn**.
 
 ---
 
@@ -12,10 +12,6 @@ Welcome to the **Plan Recommendation System**, a smart solution that uses **mach
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [How it Works](#how-it-works)
-- [API Endpoints](#api-endpoints)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
