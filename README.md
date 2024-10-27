@@ -7,8 +7,7 @@ Welcome to **Telme**, a smart solution that uses **machine learning models (K-me
 ## Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
+- [Language Used](#language-used)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [How it Works](#how-it-works)
@@ -33,38 +32,8 @@ Welcome to **Telme**, a smart solution that uses **machine learning models (K-me
 
 ---
 
-## Prerequisites
-Make sure you have the following installed:
-- Python 3.8+
-- Pip (Python package manager)
-- Git (for cloning the repository)
-
----
-
-## Installation
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/plan-recommendation-system.git
-   cd plan-recommendation-system
-
-2. **Create and Activate a Virtual Environment**:
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-
-
-3. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-
-
-4. **Run the Flask App**:
-   ```bash
-   python app.py
-
-
-5. Access the App: Open your browser and visit http://127.0.0.1:5000.
+## Language Used
+- Python
 
 
 ## Usage
