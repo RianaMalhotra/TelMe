@@ -76,19 +76,29 @@ Make sure you have the following installed:
 - Submit the Form: The app assigns you to a cluster and recommends the ideal plan based on your input.
 - View Recommendation: See the recommended plan displayed in the web interface.
 
-```perl
-plan-recommendation-system/
-│
-├── templates/
-│   └── index.html               # Frontend HTML
-├── .venv/                       # Virtual environment (ignored in Git)
-├── app.py                       # Flask backend
-├── FinalScript.py               # Main ML logic
-├── requirements.txt             # Python dependencies
-├── models/                      # Serialized ML models and encoders
-│   ├── kmeans_model.pkl
-│   ├── logistic_model.pkl
-│   ├── city_encoder.pkl
-│   ├── plan_encoder.pkl
-│   └── scaler.pkl
-└── README.md                    # Project documentation
+
+## Project Structure
+   ```perl
+   plan-recommendation-system/
+   │
+   ├── templates/
+   │   └── index.html               # Frontend HTML
+   ├── .venv/                       # Virtual environment (ignored in Git)
+   ├── app.py                       # Flask backend
+   ├── FinalScript.py               # Main ML logic
+   ├── requirements.txt             # Python dependencies
+   ├── models/                      # Serialized ML models and encoders
+   │   ├── kmeans_model.pkl
+   │   ├── logistic_model.pkl
+   │   ├── city_encoder.pkl
+   │   ├── plan_encoder.pkl
+   │   └── scaler.pkl
+   └── README.md                    # Project documentation
+```
+
+## How it Works
+- User Input: The user provides details such as city, days since joining, total plan changes, and selected plans.
+- K-means Clustering: The user is assigned to one of three clusters.
+- Logistic Regression: Based on the cluster and city, a recommended plan is generated.
+- Plan Recommendation: The recommended plan is displayed on the frontend
+
