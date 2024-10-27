@@ -18,8 +18,6 @@ Welcome to **Telme**, a smart solution that uses **machine learning models (K-me
 - **User Input Handling**: Collects user details including city, days since joining, and number of plan changes.
 - **K-means Clustering**: Assigns the user to an appropriate cluster based on input.
 - **Logistic Regression**: Recommends the ideal plan for the user.
-- **Flask Backend API**: Handles form submissions and API requests.
-- **Dynamic Frontend**: Corporate-styled user interface using Bootstrap.
 
 ---
 
